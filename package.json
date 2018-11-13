@@ -15,7 +15,10 @@
     "setupFiles": [
       "./jest/setup.js"
     ],
-    "testPathIgnorePatterns": ["app/__tests__/HomeScreen-test.js", "node_modules"]
+    "testPathIgnorePatterns": [
+      "app/__tests__/HomeScreen-test.js",
+      "node_modules"
+    ]
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
