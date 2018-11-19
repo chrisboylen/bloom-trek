@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Image, Animated, Easing, StyleSheet } from 'react-native';
 
-class LoadingScreen extends Component {
+export default class LoadingScreen extends Component {
   constructor () {
     super()
     this.spinValue = new Animated.Value(0)
